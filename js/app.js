@@ -89,3 +89,14 @@ verAbajo.addEventListener('click', () => {
     document.body.scrollTop = 1000; /* para safari */
     document.documentElement.scrollTop = 1000; /* para chrome */
 });
+
+/* darle mas efecto al menu */
+/* const enlaces2 = document.querySelectorAll('ul li a');
+const btnMenu2 = document.querySelector('.btn-menu');
+const menu2 = document.querySelector('.list-container');
+let on_off = true;
+
+enlaces2.forEach((link2) => {
+    var links = link2.innerText;
+    link2.dataset.text = links;
+}) */
